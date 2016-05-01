@@ -20,8 +20,8 @@ $('#employeeinfo').on('submit', function (event) {
   appendSalary(totalSalaries(staff));
 
 //Deletes entry
-//$('.person').on('click', 'button', function () {
-  //$('.person').empty('<p>');
+$('.person').on('click', 'button', function () {
+  $(this).parent().remove();
 });
 
 });
